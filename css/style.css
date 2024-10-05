@@ -66,3 +66,9 @@ a {
     padding: var(--padding-mobile);
     margin-bottom: 26px;
 }
+
+/* Description */
+.recipe__description {
+    padding: var(--padding-mobile);
+    margin-bottom: 40px;
+}

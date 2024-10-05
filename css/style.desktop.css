@@ -22,3 +22,8 @@ body {
 .recipe__title {
     padding: 0;
 }
+
+/* Description */
+.recipe__description {
+    padding: 0;
+}
