@@ -25,4 +25,36 @@
 
     --color-pink-800: #7b284f;
     --color-pink-50: #fff5fa;
+
+    --padding-mobile: 0 30px;
 }
+
+/* Base */
+body {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    color: var(--color-stone-900);
+    background: var(--color-stone-100);
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Main */
+.recipe {
+    width: 100%; 
+    background: white;
+}
+
+/* Banner */
+.banner {
+    margin-bottom: 40px;
+}
+

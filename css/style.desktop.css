@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Main */
+.recipe {
+    max-width: 740px;
+    padding: 30px;
+    margin: 120px 0;
+    border-radius: 20px;
+}
+
+/* Banner */
+.banner img {
+    border-radius: 10px;
+}
