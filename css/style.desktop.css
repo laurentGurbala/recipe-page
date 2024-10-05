@@ -17,3 +17,8 @@ body {
 .banner img {
     border-radius: 10px;
 }
+
+/* Title */
+.recipe__title {
+    padding: 0;
+}
