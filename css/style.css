@@ -1,0 +1,28 @@
+@import "./reset.css";
+
+@font-face {
+    font-family: "Outfit";
+    src: url("../assets/fonts/outfit/Outfit-VariableFont_wght.ttf") format("truetype");
+    font-weight: 400 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "YougSerif";
+    src: url("../assets/fonts/young-serif/YoungSerif-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Variables */
+:root {
+    --color-stone-100: #f3e6d8;
+    --color-stone-150: #e4ded8;
+    --color-stone-600: #5f574e;
+    --color-stone-900: #302d2c;
+
+    --color-brown-800: #854632;
+
+    --color-pink-800: #7b284f;
+    --color-pink-50: #fff5fa;
+}
