@@ -49,3 +49,9 @@ body {
 .recipe__ingredients {
     margin: 0;
 }
+
+/* Instructions */
+.recipe__instruction {
+    margin-left: 0;
+    margin-right: 0;
+}

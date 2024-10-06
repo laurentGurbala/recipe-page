@@ -49,7 +49,7 @@ a {
 
 ul {
     list-style: none;
-    padding: 10px;
+    padding-left: 7px;
 }
 
 ul i {
@@ -121,6 +121,7 @@ ul i {
 /* Ingredients */
 .recipe__ingredients {
     margin: var(--padding-mobile);
+    margin-bottom: 32px;
 }
 
 .recipe__ingredients__title {
@@ -138,4 +139,29 @@ ul i {
     align-items: center;
     gap: 24px;
     margin-bottom: 10px;
+}
+
+/* Instructions */
+.recipe__instruction {
+    margin: var(--padding-mobile);
+    counter-reset: step;
+}
+
+.recipe__instruction__title {
+    color: var(--color-brown-800);
+    font-family: "YougSerif", serif;
+    margin-bottom: 12px;
+}
+
+.recipe__instruction__step{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 12px;
+}
+
+.recipe__instruction__step::before {
+    counter-increment: step;
+    content: counter(step)".";
+    font-weight: bold;
+    color: var(--color-brown-800);
 }
