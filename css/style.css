@@ -47,6 +47,16 @@ a {
     color: inherit;
 }
 
+ul {
+    list-style: none;
+    padding: 10px;
+}
+
+ul i {
+    font-size: 5px;
+    line-height: 0;
+}
+
 .bold {
     font-weight: 700;
 }
@@ -92,10 +102,35 @@ a {
 }
 
 .recipe__preparation__list li {
-    max-width: 170px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    max-width: 200px;
     margin-bottom: 10px;
 }
 
-.recipe__preparation__list li::marker {
+.recipe__preparation__list i {
     color: var(--color-pink-800);
+}
+
+/* Ingredients */
+.recipe__ingredients {
+    margin: var(--padding-mobile);
+}
+
+.recipe__ingredients__title {
+    color: var(--color-brown-800);
+    font-family: "YougSerif", serif;
+    margin-bottom: 12px;
+}
+
+.recipe__ingredients__list i {
+    color: var(--color-brown-800);
+}
+
+.recipe__ingredients__list > li {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 10px;
 }
