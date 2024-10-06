@@ -20,10 +20,22 @@ body {
 
 /* Title */
 .recipe__title {
-    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 /* Description */
 .recipe__description {
-    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* Preparation Time */
+.recipe__preparation {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.recipe__preparation__list li {
+    max-width: 270px;
 }
